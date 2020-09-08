@@ -3,7 +3,7 @@ var rl = readline.createInterface( process.stdin , process.stdout );
 
 rl.question(" Salut,bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?\n>",function pyramide(e){
 	e=Math.round(e);
-	console.log(e);
+	
 if (e>25||e<=1)  {
 	return 0;
 }
